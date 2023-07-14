@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  font-family: 'Roboto';
+}
+
+.create-task-container {
+  width: 35%;
+  background-color: #1a171d;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-task-heading {
+  color: #f3aa4e;
+}
+
+.input-task-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.label {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input {
+  font-size: 16px;
+  padding: 8px 10px;
+  outline: none;
+}
+
+.add-task-btn {
+  font-weight: 600;
+  width: 100px;
+  padding: 10px;
+  align-self: center;
+  color: #ffffff;
+  background-color: #f3aa4e;
+  padding: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.show-tasks-container {
+  width: 65%;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 30px;
+}
+
+.tags-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tag-btn {
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  padding: 8px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.act-tag-btn {
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 25px;
+  background-color: #f3aa4e;
+  cursor: pointer;
+}
+
+.tasks-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a171d;
+  margin-bottom: 10px;
+  padding: 0 30px;
+}
+.task {
+  color: #f8fafc;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tag {
+  color: #323f4b;
+  padding: 5px 20px;
+  font-weight: 500;
+  background-color: #f3aa4e;
+  border-radius: 25px;
+}
+
+.no-tasks-view-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-task {
+  font-size: 34px;
+  font-weight: 500;
+}
